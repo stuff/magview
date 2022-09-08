@@ -1,0 +1,42 @@
+.viewer {
+  position: fixed;
+  top: 0;
+  display: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  min-width: 100%;
+}
+
+.viewer--show {
+  display: block;
+}
+
+.viewer__topbar {
+  height: 3vh;
+}
+
+.viewer__imagecontainer {
+  height: 97vh;
+}
+
+.viewer__imagecontainer img {
+  height: 100%;
+}
+
+.viewer__button {
+  font-size: 16px;
+}
+
+.viewer__icon {
+  vertical-align: 1px;
+}
+
+.viewer__title {
+  padding: 0 16px;
+  font-weight: bold;
+}
+
+.viewer__close-button {
+  position: absolute;
+  right: 12px;
+}
